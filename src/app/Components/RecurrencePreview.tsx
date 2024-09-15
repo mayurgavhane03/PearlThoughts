@@ -1,6 +1,6 @@
 // components/RecurrencePreview.tsx
 import React, { useState } from 'react';
-import { format, isSameDay } from 'date-fns';
+import { format } from 'date-fns';
 import { generateCalendarDays, getNextMonth, getPreviousMonth } from '../utils/generateCalendar';
 import { useDatePickerStore } from './store/useDatePickerStore';
 

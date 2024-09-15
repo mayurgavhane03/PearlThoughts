@@ -1,6 +1,6 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import DatePicker from '../DatePicker';
-import { useDatePickerStore } from '../store/useDatePickerStore';
+ 
 
 jest.mock('../store/useDatePickerStore');
 

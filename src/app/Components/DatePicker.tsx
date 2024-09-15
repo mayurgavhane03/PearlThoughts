@@ -28,7 +28,7 @@ import { useDatePickerStore } from './store/useDatePickerStore';
        <RecurrenceOptions />
        <DateRangePicker />
        
-       {/* Button to trigger preview generation */}
+ 
        <button
          onClick={handleGeneratePreview}
          className="bg-blue-500 text-white rounded-md p-2 mt-4"

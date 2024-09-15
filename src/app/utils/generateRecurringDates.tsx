@@ -15,8 +15,6 @@ export function generateRecurringDates({
   interval,
   startDate,
   endDate,
-  daysOfWeek,
-  nthDay,
 }: GenerateRecurringDatesParams): string[] {
   if (!startDate) return [];
 
